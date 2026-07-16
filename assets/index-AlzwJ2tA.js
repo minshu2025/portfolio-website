@@ -149,7 +149,7 @@ Error generating stack: `+e.message+`
             z-index: 1001;
           }
         }
-      `})]})}function ve({size:e=20,...t}){return(0,k.jsxs)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,width:e,height:e,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`,...t,children:[(0,k.jsx)(`path`,{d:`M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4`}),(0,k.jsx)(`path`,{d:`M9 18c-4.51 2-5-2-7-2`})]})}function ye({size:e=20,...t}){return(0,k.jsxs)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,width:e,height:e,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`,...t,children:[(0,k.jsx)(`path`,{d:`M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z`}),(0,k.jsx)(`rect`,{width:`4`,height:`12`,x:`2`,y:`9`,rx:`1`}),(0,k.jsx)(`circle`,{cx:`4`,cy:`4`,r:`2`})]})}function be(){let e=[`MCA Student`,`Full Stack Developer`,`Java Developer`,`Spring Boot Developer`,`React Developer`,`Problem Solver`,`Open Source Learner`],[t,n]=(0,l.useState)(0),[r,i]=(0,l.useState)(``),[a,o]=(0,l.useState)(!1);return(0,l.useEffect)(()=>{let s,c=e[t];return!a&&r===c?s=setTimeout(()=>o(!0),1500):a&&r===``?(o(!1),n(t=>(t+1)%e.length)):s=setTimeout(()=>{i(a?c.substring(0,r.length-1):c.substring(0,r.length+1))},a?40:100),()=>clearTimeout(s)},[r,a,t]),(0,k.jsxs)(`section`,{id:`home`,className:`hero-section`,children:[(0,k.jsxs)(`div`,{className:`container hero-grid`,children:[(0,k.jsxs)(`div`,{className:`hero-content`,children:[(0,k.jsxs)(`div`,{className:`welcome-tag`,children:[(0,k.jsx)(D,{size:16}),(0,k.jsx)(`span`,{children:`Welcome to my workspace`})]}),(0,k.jsxs)(`h1`,{className:`hero-title`,children:[`Hi, I'm `,(0,k.jsx)(`span`,{className:`gradient-text glow-text`,children:`Minshu`})]}),(0,k.jsxs)(`h2`,{className:`hero-subtitle`,children:[`I am a `,(0,k.jsx)(`span`,{className:`typewriter-text`,children:r}),(0,k.jsx)(`span`,{className:`cursor`})]}),(0,k.jsx)(`p`,{className:`hero-desc`,children:`Passionate about turning ideas into real-world applications. I specialize in Java, Spring Boot, React, and MySQL, with a focus on building scalable, efficient, and user-friendly web solutions while continuously learning and growing as a developer.`}),(0,k.jsxs)(`div`,{className:`hero-actions`,children:[(0,k.jsxs)(`a`,{href:`#projects`,className:`btn btn-primary`,children:[`View My Work `,(0,k.jsx)(x,{size:18})]}),(0,k.jsxs)(`a`,{href:`/resume.pdf`,download:!0,className:`btn btn-secondary`,children:[`Download Resume `,(0,k.jsx)(ce,{size:18})]})]}),(0,k.jsxs)(`div`,{className:`hero-socials`,children:[(0,k.jsx)(`a`,{href:`https://github.com/minshu2025`,target:`_blank`,rel:`noreferrer`,className:`social-icon-btn`,"aria-label":`GitHub`,children:(0,k.jsx)(ve,{size:20})}),(0,k.jsx)(`a`,{href:`https://www.linkedin.com/in/minshu-kumar-b71601282`,target:`_blank`,rel:`noreferrer`,className:`social-icon-btn`,"aria-label":`LinkedIn`,children:(0,k.jsx)(ye,{size:20})})]})]}),(0,k.jsx)(`div`,{className:`hero-visual`,children:(0,k.jsxs)(`div`,{className:`ide-window glass-card`,children:[(0,k.jsxs)(`div`,{className:`ide-header`,children:[(0,k.jsxs)(`div`,{className:`ide-dots`,children:[(0,k.jsx)(`span`,{className:`dot red`}),(0,k.jsx)(`span`,{className:`dot yellow`}),(0,k.jsx)(`span`,{className:`dot green`})]}),(0,k.jsx)(`div`,{className:`ide-title`,children:`MinshuController.java`})]}),(0,k.jsx)(`div`,{className:`ide-body`,children:(0,k.jsx)(`pre`,{children:(0,k.jsxs)(`code`,{children:[(0,k.jsx)(`span`,{className:`code-keyword`,children:`@RestController`}),(0,k.jsx)(`br`,{}),(0,k.jsx)(`span`,{className:`code-keyword`,children:`@RequestMapping`}),`(`,(0,k.jsx)(`span`,{className:`code-string`,children:`"/api"`}),`)`,(0,k.jsx)(`br`,{}),(0,k.jsx)(`span`,{className:`code-keyword`,children:`public class`}),` `,(0,k.jsx)(`span`,{className:`code-function`,children:`MinshuController`}),` {`,(0,k.jsx)(`br`,{}),(0,k.jsx)(`br`,{}),`\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-keyword`,children:`@GetMapping`}),`(`,(0,k.jsx)(`span`,{className:`code-string`,children:`"/status"`}),`)`,(0,k.jsx)(`br`,{}),`\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-keyword`,children:`public`}),` Map<String, Object> `,(0,k.jsx)(`span`,{className:`code-function`,children:`getStatus`}),`() {`,(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0return Map.of(`,(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-string`,children:`"name"`}),`, `,(0,k.jsx)(`span`,{className:`code-string`,children:`"Minshu"`}),`,`,(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-string`,children:`"degree"`}),`, `,(0,k.jsx)(`span`,{className:`code-string`,children:`"MCA"`}),`,`,(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-string`,children:`"passion"`}),`, `,(0,k.jsx)(`span`,{className:`code-string`,children:`"Coding"`}),`,`,(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-string`,children:`"ready"`}),`, `,(0,k.jsx)(`span`,{className:`code-boolean`,children:`true`}),(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0);`,(0,k.jsx)(`br`,{}),`\xA0\xA0}`,(0,k.jsx)(`br`,{}),`}`]})})})]})})]}),(0,k.jsx)(`style`,{children:`
+      `})]})}function ve({size:e=20,...t}){return(0,k.jsxs)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,width:e,height:e,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`,...t,children:[(0,k.jsx)(`path`,{d:`M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4`}),(0,k.jsx)(`path`,{d:`M9 18c-4.51 2-5-2-7-2`})]})}function ye({size:e=20,...t}){return(0,k.jsxs)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,width:e,height:e,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`,...t,children:[(0,k.jsx)(`path`,{d:`M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z`}),(0,k.jsx)(`rect`,{width:`4`,height:`12`,x:`2`,y:`9`,rx:`1`}),(0,k.jsx)(`circle`,{cx:`4`,cy:`4`,r:`2`})]})}function be(){let[e,t]=(0,l.useState)(!1),n=[`MCA Student`,`Full Stack Developer`,`Java Developer`,`Spring Boot Developer`,`React Developer`,`Problem Solver`,`Open Source Learner`],[r,i]=(0,l.useState)(0),[a,o]=(0,l.useState)(``),[s,c]=(0,l.useState)(!1);return(0,l.useEffect)(()=>{let e,t=n[r];return!s&&a===t?e=setTimeout(()=>c(!0),1500):s&&a===``?(c(!1),i(e=>(e+1)%n.length)):e=setTimeout(()=>{o(s?t.substring(0,a.length-1):t.substring(0,a.length+1))},s?40:100),()=>clearTimeout(e)},[a,s,r]),(0,k.jsxs)(`section`,{id:`home`,className:`hero-section`,children:[(0,k.jsxs)(`div`,{className:`container hero-grid`,children:[(0,k.jsxs)(`div`,{className:`hero-content`,children:[(0,k.jsxs)(`div`,{className:`welcome-tag`,children:[(0,k.jsx)(D,{size:16}),(0,k.jsx)(`span`,{children:`Welcome to my workspace`})]}),(0,k.jsxs)(`h1`,{className:`hero-title`,children:[`Hi, I'm `,(0,k.jsx)(`span`,{className:`gradient-text glow-text`,children:`Minshu`})]}),(0,k.jsxs)(`h2`,{className:`hero-subtitle`,children:[`I am a `,(0,k.jsx)(`span`,{className:`typewriter-text`,children:a}),(0,k.jsx)(`span`,{className:`cursor`})]}),(0,k.jsx)(`p`,{className:`hero-desc`,children:`Passionate about turning ideas into real-world applications. I specialize in Java, Spring Boot, React, and MySQL, with a focus on building scalable, efficient, and user-friendly web solutions while continuously learning and growing as a developer.`}),(0,k.jsxs)(`div`,{className:`hero-actions`,children:[(0,k.jsxs)(`a`,{href:`#projects`,className:`btn btn-primary`,children:[`View My Work `,(0,k.jsx)(x,{size:18})]}),(0,k.jsxs)(`button`,{onClick:()=>t(!0),className:`btn btn-secondary`,children:[`Download Resume `,(0,k.jsx)(ce,{size:18})]})]}),(0,k.jsxs)(`div`,{className:`hero-socials`,children:[(0,k.jsx)(`a`,{href:`https://github.com/minshu2025`,target:`_blank`,rel:`noreferrer`,className:`social-icon-btn`,"aria-label":`GitHub`,children:(0,k.jsx)(ve,{size:20})}),(0,k.jsx)(`a`,{href:`https://www.linkedin.com/in/minshu-kumar-b71601282`,target:`_blank`,rel:`noreferrer`,className:`social-icon-btn`,"aria-label":`LinkedIn`,children:(0,k.jsx)(ye,{size:20})})]})]}),(0,k.jsx)(`div`,{className:`hero-visual`,children:(0,k.jsxs)(`div`,{className:`ide-window glass-card`,children:[(0,k.jsxs)(`div`,{className:`ide-header`,children:[(0,k.jsxs)(`div`,{className:`ide-dots`,children:[(0,k.jsx)(`span`,{className:`dot red`}),(0,k.jsx)(`span`,{className:`dot yellow`}),(0,k.jsx)(`span`,{className:`dot green`})]}),(0,k.jsx)(`div`,{className:`ide-title`,children:`MinshuController.java`})]}),(0,k.jsx)(`div`,{className:`ide-body`,children:(0,k.jsx)(`pre`,{children:(0,k.jsxs)(`code`,{children:[(0,k.jsx)(`span`,{className:`code-keyword`,children:`@RestController`}),(0,k.jsx)(`br`,{}),(0,k.jsx)(`span`,{className:`code-keyword`,children:`@RequestMapping`}),`(`,(0,k.jsx)(`span`,{className:`code-string`,children:`"/api"`}),`)`,(0,k.jsx)(`br`,{}),(0,k.jsx)(`span`,{className:`code-keyword`,children:`public class`}),` `,(0,k.jsx)(`span`,{className:`code-function`,children:`MinshuController`}),` {`,(0,k.jsx)(`br`,{}),(0,k.jsx)(`br`,{}),`\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-keyword`,children:`@GetMapping`}),`(`,(0,k.jsx)(`span`,{className:`code-string`,children:`"/status"`}),`)`,(0,k.jsx)(`br`,{}),`\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-keyword`,children:`public`}),` Map<String, Object> `,(0,k.jsx)(`span`,{className:`code-function`,children:`getStatus`}),`() {`,(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0return Map.of(`,(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-string`,children:`"name"`}),`, `,(0,k.jsx)(`span`,{className:`code-string`,children:`"Minshu"`}),`,`,(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-string`,children:`"degree"`}),`, `,(0,k.jsx)(`span`,{className:`code-string`,children:`"MCA"`}),`,`,(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-string`,children:`"passion"`}),`, `,(0,k.jsx)(`span`,{className:`code-string`,children:`"Coding"`}),`,`,(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0\xA0\xA0`,(0,k.jsx)(`span`,{className:`code-string`,children:`"ready"`}),`, `,(0,k.jsx)(`span`,{className:`code-boolean`,children:`true`}),(0,k.jsx)(`br`,{}),`\xA0\xA0\xA0\xA0);`,(0,k.jsx)(`br`,{}),`\xA0\xA0}`,(0,k.jsx)(`br`,{}),`}`]})})})]})})]}),e&&(0,k.jsx)(`div`,{className:`modal-overlay`,onClick:()=>t(!1),children:(0,k.jsxs)(`div`,{className:`modal-content glass-card`,onClick:e=>e.stopPropagation(),children:[(0,k.jsx)(`button`,{className:`modal-close`,onClick:()=>t(!1),"aria-label":`Close modal`,children:(0,k.jsx)(he,{size:20})}),(0,k.jsx)(`h3`,{className:`modal-title`,children:`Select Resume Format`}),(0,k.jsx)(`p`,{className:`modal-subtitle`,children:`Choose the version of the resume you'd like to download:`}),(0,k.jsxs)(`div`,{className:`modal-options`,children:[(0,k.jsxs)(`div`,{className:`modal-option-card`,children:[(0,k.jsxs)(`div`,{className:`option-info`,children:[(0,k.jsx)(`h4`,{className:`option-title`,children:`Resume (With Photo)`}),(0,k.jsx)(`p`,{className:`option-desc`,children:`Includes professional headshot for standard profiles.`})]}),(0,k.jsxs)(`a`,{href:`/resume-photo.pdf`,download:!0,className:`btn btn-primary btn-option-download`,children:[`Download `,(0,k.jsx)(ce,{size:16})]})]}),(0,k.jsxs)(`div`,{className:`modal-option-card`,children:[(0,k.jsxs)(`div`,{className:`option-info`,children:[(0,k.jsx)(`h4`,{className:`option-title`,children:`Resume (Without Photo)`}),(0,k.jsx)(`p`,{className:`option-desc`,children:`ATS-friendly classic format optimized for scanning software.`})]}),(0,k.jsxs)(`a`,{href:`/resume-ats.pdf`,download:!0,className:`btn btn-secondary btn-option-download`,children:[`Download `,(0,k.jsx)(ce,{size:16})]})]})]})]})}),(0,k.jsx)(`style`,{children:`
         .hero-section {
           min-height: 100vh;
           display: flex;
@@ -347,6 +347,138 @@ Error generating stack: `+e.message+`
           .hero-actions .btn {
             width: 100%;
             justify-content: center;
+          }
+        }
+
+        /* Modal Styles */
+        .modal-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(3, 7, 18, 0.65);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          z-index: 2000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 1.5rem;
+          animation: fadeIn 0.25s ease-out;
+        }
+
+        .modal-content {
+          width: 100%;
+          max-width: 480px;
+          padding: 2.2rem 2rem;
+          position: relative;
+          text-align: center;
+          box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+          animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .modal-close {
+          position: absolute;
+          top: 1.2rem;
+          right: 1.2rem;
+          background: transparent;
+          border: none;
+          color: var(--text-secondary);
+          cursor: pointer;
+          transition: var(--transition-smooth);
+        }
+
+        .modal-close:hover {
+          color: var(--text-primary);
+          transform: rotate(90deg);
+        }
+
+        .modal-title {
+          font-size: 1.5rem;
+          font-weight: 800;
+          color: var(--text-primary);
+          margin-bottom: 0.4rem;
+        }
+
+        .modal-subtitle {
+          font-size: 0.9rem;
+          color: var(--text-secondary);
+          margin-bottom: 1.8rem;
+          line-height: 1.4;
+        }
+
+        .modal-options {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+        }
+
+        .modal-option-card {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 1.2rem 1.4rem;
+          background: rgba(255, 255, 255, 0.02);
+          border: 1px solid var(--border-color);
+          border-radius: 12px;
+          text-align: left;
+          gap: 1rem;
+          transition: var(--transition-smooth);
+        }
+
+        .modal-option-card:hover {
+          border-color: var(--border-glow);
+          background: rgba(255, 255, 255, 0.04);
+        }
+
+        .option-info {
+          flex: 1;
+        }
+
+        .option-title {
+          font-size: 1rem;
+          font-weight: 700;
+          color: var(--text-primary);
+          margin-bottom: 0.2rem;
+        }
+
+        .option-desc {
+          font-size: 0.8rem;
+          color: var(--text-muted);
+          line-height: 1.3;
+        }
+
+        .btn-option-download {
+          padding: 0.5rem 1rem;
+          font-size: 0.8rem;
+          white-space: nowrap;
+        }
+
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+          from { transform: translateY(15px); opacity: 0; }
+          to { transform: translateY(0); opacity: 1; }
+        }
+
+        @media (max-width: 480px) {
+          .modal-content {
+            padding: 1.8rem 1.2rem;
+          }
+          .modal-option-card {
+            flex-direction: column;
+            align-items: stretch;
+            text-align: center;
+            padding: 1rem;
+          }
+          .btn-option-download {
+            width: 100%;
+            justify-content: center;
+            margin-top: 0.5rem;
           }
         }
       `})]})}function xe(){return(0,k.jsxs)(`section`,{id:`about`,className:`about-section`,children:[(0,k.jsxs)(`div`,{className:`container`,children:[(0,k.jsx)(`h2`,{className:`section-title`,children:`About Me`}),(0,k.jsxs)(`div`,{className:`about-grid`,children:[(0,k.jsxs)(`div`,{className:`about-bio`,children:[(0,k.jsx)(`h3`,{className:`bio-heading`,children:`Building solutions that blend logic & user experience`}),(0,k.jsx)(`p`,{className:`bio-text`,children:`I am Minshu Dubey, an MCA student at Inderprastha Engineering College (IPEC), Ghaziabad, affiliated with AKTU. I am passionate about Full Stack Development and enjoy building scalable web applications using Java, Spring Boot, React, MySQL, and modern web technologies.`}),(0,k.jsx)(`p`,{className:`bio-text`,children:`I continuously improve my skills by working on real-world projects, solving coding problems, and learning new technologies to build robust, efficient, and user-friendly web solutions.`}),(0,k.jsxs)(`div`,{className:`stats-strip`,children:[(0,k.jsxs)(`div`,{className:`stat-item`,children:[(0,k.jsx)(`span`,{className:`stat-number`,children:`4+`}),(0,k.jsx)(`span`,{className:`stat-label`,children:`Projects Completed`})]}),(0,k.jsxs)(`div`,{className:`stat-item`,children:[(0,k.jsx)(`span`,{className:`stat-number`,children:`5+`}),(0,k.jsx)(`span`,{className:`stat-label`,children:`Certifications`})]}),(0,k.jsxs)(`div`,{className:`stat-item`,children:[(0,k.jsx)(`span`,{className:`stat-number`,children:`4+`}),(0,k.jsx)(`span`,{className:`stat-label`,children:`Years of Learning`})]})]})]}),(0,k.jsx)(`div`,{className:`about-pillars`,children:[{icon:(0,k.jsx)(ae,{className:`pillar-icon`,size:24}),title:`Java Development`,desc:`Building applications using Core Java and Object-Oriented Programming concepts.`},{icon:(0,k.jsx)(T,{className:`pillar-icon`,size:24}),title:`Web Development`,desc:`Creating responsive websites using HTML, CSS, JavaScript, and PHP.`},{icon:(0,k.jsx)(se,{className:`pillar-icon`,size:24}),title:`Database Management`,desc:`Designing and managing relational databases using MySQL.`},{icon:(0,k.jsx)(oe,{className:`pillar-icon`,size:24}),title:`Problem Solving`,desc:`Improving logical thinking by solving programming and database problems.`}].map((e,t)=>(0,k.jsxs)(`div`,{className:`pillar-card glass-card`,children:[(0,k.jsx)(`div`,{className:`pillar-icon-wrapper`,children:e.icon}),(0,k.jsxs)(`div`,{className:`pillar-info`,children:[(0,k.jsx)(`h4`,{className:`pillar-title`,children:e.title}),(0,k.jsx)(`p`,{className:`pillar-desc`,children:e.desc})]})]},t))})]})]}),(0,k.jsx)(`style`,{children:`
