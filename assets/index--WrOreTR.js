@@ -249,6 +249,7 @@ Error generating stack: `+e.message+`
           box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
           overflow: hidden;
           max-width: 480px;
+          width: 100%;
         }
 
         .ide-header {
@@ -284,10 +285,11 @@ Error generating stack: `+e.message+`
         .ide-body {
           padding: 1.5rem;
           font-family: 'Courier New', Courier, monospace;
-          font-size: 0.9rem;
+          font-size: 0.82rem;
           line-height: 1.6;
           color: #a7f3d0;
           text-align: left;
+          overflow-x: auto;
         }
 
         .code-keyword { color: #f472b6; }
@@ -327,6 +329,7 @@ Error generating stack: `+e.message+`
           .ide-window {
             transform: none;
             width: 100%;
+            max-width: 100%;
           }
         }
 
@@ -458,7 +461,10 @@ Error generating stack: `+e.message+`
 
         @media (max-width: 640px) {
           .stats-strip {
+            flex-direction: column;
             gap: 1.5rem;
+            align-items: center;
+            text-align: center;
           }
           .stat-number {
             font-size: 1.8rem;
@@ -716,6 +722,27 @@ Error generating stack: `+e.message+`
             gap: 4rem;
           }
         }
+
+        @media (max-width: 640px) {
+          .timeline {
+            padding-left: 1.2rem;
+            margin-left: 0.2rem;
+          }
+          .timeline-item {
+            padding: 1.2rem;
+          }
+          .timeline-dot {
+            left: -1.55rem;
+            top: 1.8rem;
+          }
+          .timeline-degree {
+            font-size: 1.1rem;
+          }
+          .cert-card {
+            padding: 1rem;
+            gap: 1rem;
+          }
+        }
       `})]})}function we(){let[e,t]=(0,l.useState)(`All`),n=[`All`,`Web`,`Game`,`Python/ML`],r=[{title:`Hostel Complaint Management System`,category:`Web`,desc:`Developed a web-based Hostel Complaint Management System that allows students to submit complaints online and enables administrators to track, manage, and resolve issues efficiently.`,tags:[`PHP`,`MySQL`,`HTML5`,`CSS3`,`JavaScript`],github:`https://github.com/minshu2025/hostel-complaint-system`,live:`#`},{title:`College Management System`,category:`Web`,desc:`Developed a College Management System with separate portals for students, faculty, and administrators. Supports admissions management, user dashboards, and secure profile updating.`,tags:[`PHP`,`MySQL`,`HTML5`,`CSS3`,`JavaScript`],github:`https://github.com/minshu2025/Student-Management-System`,live:`#`},{title:`Car Coin Collector Game`,category:`Game`,desc:`Developed a 2D car game using Unity where players control a car to collect coins within a limited time. Designed the game environment using Unity assets and timer-based gameplay logic.`,tags:[`Unity`,`C#`,`Unity Assets`,`Visual Studio`],github:null,live:`#`},{title:`Leaf Disease Prediction System`,category:`Python/ML`,desc:`Collaborated on a Team Project that uses machine learning to identify plant diseases from leaf images. Users upload leaf images and receive accurate disease predictions.`,tags:[`Python`,`Flask`,`TensorFlow`,`OpenCV`,`HTML`,`CSS`],github:null,live:`#`}],i=e===`All`?r:r.filter(t=>t.category===e);return(0,k.jsxs)(`section`,{id:`projects`,className:`projects-section`,children:[(0,k.jsxs)(`div`,{className:`container`,children:[(0,k.jsx)(`h2`,{className:`section-title`,children:`My Projects`}),(0,k.jsx)(`div`,{className:`filters-container`,children:n.map(n=>(0,k.jsx)(`button`,{onClick:()=>t(n),className:`filter-btn ${e===n?`active`:``}`,children:n},n))}),(0,k.jsx)(`div`,{className:`projects-grid`,children:i.map((e,t)=>(0,k.jsxs)(`div`,{className:`project-card glass-card`,children:[(0,k.jsxs)(`div`,{className:`project-header`,children:[(0,k.jsx)(ue,{className:`folder-icon`,size:32}),(0,k.jsx)(`div`,{className:`project-links`,children:e.github&&(0,k.jsx)(`a`,{href:e.github,target:`_blank`,rel:`noreferrer`,className:`proj-link`,"aria-label":`GitHub Link`,children:(0,k.jsx)(ve,{size:20})})})]}),(0,k.jsxs)(`div`,{className:`project-info`,children:[(0,k.jsx)(`span`,{className:`project-category`,children:e.category}),(0,k.jsx)(`h3`,{className:`project-title`,children:e.title}),(0,k.jsx)(`p`,{className:`project-desc`,children:e.desc})]}),(0,k.jsx)(`div`,{className:`project-tags`,children:e.tags.map((e,t)=>(0,k.jsx)(`span`,{className:`tag`,children:e},t))})]},t))})]}),(0,k.jsx)(`style`,{children:`
         .projects-section {
           background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
@@ -756,7 +783,7 @@ Error generating stack: `+e.message+`
 
         .projects-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
           gap: 2rem;
         }
 
@@ -847,6 +874,9 @@ Error generating stack: `+e.message+`
         @media (max-width: 640px) {
           .projects-grid {
             grid-template-columns: 1fr;
+          }
+          .project-card {
+            padding: 1.5rem;
           }
         }
       `})]})}function Te(){return(0,k.jsxs)(`section`,{id:`profiles`,className:`profiles-section`,children:[(0,k.jsxs)(`div`,{className:`container`,children:[(0,k.jsx)(`h2`,{className:`section-title`,children:`Coding Profiles`}),(0,k.jsx)(`p`,{className:`profiles-subtitle`,children:`Where I solve problems, write code, and continuously sharpen my programming skills.`}),(0,k.jsx)(`div`,{className:`profiles-grid`,children:[{name:`GitHub`,icon:(0,k.jsx)(ve,{size:24}),url:`https://github.com/minshu2025`,color:`#a855f7`,desc:`Source code repositories, personal projects, open-source learning.`},{name:`LeetCode`,icon:(0,k.jsx)(ae,{size:24}),url:`https://leetcode.com/u/minshu640/`,color:`#eab308`,desc:`Algorithmic problem solving, data structures practice, logic building.`},{name:`HackerRank`,icon:(0,k.jsx)(S,{size:24}),url:`https://www.hackerrank.com/profile/dubeyminshu4`,color:`#22c55e`,desc:`Skill badges, problem solving in Java, SQL, and database concepts.`},{name:`CodeChef`,icon:(0,k.jsx)(D,{size:24}),url:`https://www.codechef.com/users/dubeyminshu4`,color:`#f97316`,desc:`Participating in competitive coding contests and algorithmic challenges.`},{name:`Kaggle`,icon:(0,k.jsx)(ne,{size:24}),url:`https://www.kaggle.com/dubeyminshu4`,color:`#06b6d4`,desc:`Exploring machine learning datasets, model prediction, and data science.`}].map((e,t)=>(0,k.jsxs)(`a`,{href:e.url,target:`_blank`,rel:`noreferrer`,className:`profile-card glass-card`,style:{"--accent-color":e.color},children:[(0,k.jsxs)(`div`,{className:`profile-header`,children:[(0,k.jsx)(`div`,{className:`profile-icon-wrapper`,style:{color:e.color,background:`${e.color}15`},children:e.icon}),(0,k.jsx)(le,{className:`external-icon`,size:16})]}),(0,k.jsxs)(`div`,{className:`profile-info`,children:[(0,k.jsx)(`h3`,{className:`profile-name`,children:e.name}),(0,k.jsx)(`p`,{className:`profile-desc`,children:e.desc})]}),(0,k.jsx)(`div`,{className:`card-border-glow`,style:{background:`linear-gradient(90deg, transparent, ${e.color}, transparent)`}})]},t))})]}),(0,k.jsx)(`style`,{children:`
